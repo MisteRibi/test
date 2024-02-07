@@ -11,5 +11,3 @@
 Training
 ![image](img/IMG_0159.png) 
 ## [Fourth Example](http://www.fourthexample.com)
-
-# test from notes
