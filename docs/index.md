@@ -2,7 +2,7 @@
 1. [Example](#example)
 2. [Example2](#example2)
 3. [test from notes](#test-from-notes)
-4. [Fourth Example](#fourth-examplehttpsgooglecom)
+4. [Fourth Example](#google)
 
 
 ## Example
@@ -10,4 +10,4 @@
 ## test from notes
 Training
 ![image](img/IMG_0159.png) 
-## [Fourth Example](https://google.com)
+## <a name="google"></a> [Fourth Example](https://google.com)
