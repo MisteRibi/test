@@ -11,6 +11,7 @@ title: img folder
 # Testing h1
 ## h2
 ### buttons
+Paragraphe
 ```html
 <button type="button" class="btn btn-primary">Primary</button>
 ```
