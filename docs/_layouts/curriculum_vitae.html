@@ -10,7 +10,7 @@ layout: default
     if (params.size != 0) {
       let areas = params.getAll("area");
       if (areas.length != 0) {
-        areas.forEach(area => {console.log('areas',areas);
+        areas.forEach(area => {
           let spans = document.querySelectorAll(`[data-jl-areas~="${area}"]`);
           if (spans.length != 0) {
             spans.forEach(span => span.style.display = "block");
