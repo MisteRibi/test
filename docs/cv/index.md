@@ -5,8 +5,12 @@ layout: curriculum_vitae
 <p data-jl-areas="informatique computer">
 
 ## h2
-asfsaaf
+Ipsum
+
 </p>
 <p data-jl-areas="wood kitchen">
+
+### h3
+Lorem
 
 </p>
