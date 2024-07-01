@@ -2,15 +2,17 @@
 layout: curriculum_vitae
 ---
 # test params
-<p data-jl-areas="informatique computer">
+<span style="display: hidden;" data-jl-areas="informatique computer">
 
 ## h2
-Ipsum
+- informatique
+- computer
 
-</p>
-<p data-jl-areas="wood kitchen">
+</span>
+<span style="display: hidden;" data-jl-areas="wood kitchen">
 
 ### h3
-Lorem
+- Wood
+- Kitchen
 
-</p>
+</span>
