@@ -12,8 +12,11 @@ layout: default
       if (areas.length != 0) {
         areas.forEach(area => {
           let spans = document.querySelectorAll(`[data-jl-areas~="${area}"]`);
-          console.log("spans",spans);
-          spans.forEach(span => span.style.display = "block");
+          if (spans.length != 0) {
+            spans.forEach(span => span.style.display = "block");
+          } else {
+            showAll = true;
+          };
         });
       } else {
         showAll = true;
