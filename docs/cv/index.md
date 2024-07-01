@@ -5,8 +5,8 @@ layout: curriculum_vitae
 <div style="display: none;" data-jl-areas="informatique computer" markdown="1"> 
 
 ## h2
-- informatique
-- computer
+- Informatique
+- Computer
 </div>
 <div style="display: none;" data-jl-areas="wood kitchen" markdown="1">
 
