@@ -2,15 +2,15 @@
 layout: curriculum_vitae
 ---
 # test params
-<span style="display: hidden;" data-jl-areas="informatique computer">
+<div style="display: hidden;" data-jl-areas="informatique computer" markdown="1"> 
 
 ## h2
 - informatique
 - computer
-</span>
-<span style="display: hidden;" data-jl-areas="wood kitchen">
+</div>
+<div style="display: hidden;" data-jl-areas="wood kitchen" markdown="1">
 
 ### h3
 - Wood
 - Kitchen
-</span>
+</div>
