@@ -5,7 +5,7 @@ layout: default
 
 <script>
   const checkAreas = () => {
-    let showAll = false;
+    let showAll = true;
     let params = new URLSearchParams(window.location.search);
     if (params.size != 0) {
       let areas = params.getAll("area");
@@ -14,15 +14,10 @@ layout: default
           let spans = document.querySelectorAll(`[data-jl-areas~="${area}"]`);
           if (spans.length != 0) {
             spans.forEach(span => span.style.display = "block");
-          } else {
-            showAll = true;
+            showAll = false;
           };
         });
-      } else {
-        showAll = true;
       };
-    } else {
-      showAll = true;
     };
 
     if (showAll) {
