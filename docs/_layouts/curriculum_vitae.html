@@ -5,13 +5,26 @@ layout: default
 
 <script>
   const checkAreas = () => {
+    let showAll = false;
     let params = new URLSearchParams(window.location.search);
     if (params.size != 0) {
-      console.log("params",params.toString());
       let areas = params.getAll("area");
       if (areas.length != 0) {
-        console.log("areas",areas);
+        areas.forEach(area => {
+          let spans = document.querySelectorAll(`[data-jl-areas~="${area}"]`);
+          console.log("spans",spans);
+          spans.forEach(span => span.style.display = "block";
+        });
+      } else {
+        showAll = true;
       };
+    } else {
+      showAll = true;
+    };
+
+    if (showAll) {
+      let spans = document.querySelectorAll('[data-jl-areas]');
+      spans.forEach(el => el.style.display = "block";
     };
   };
   checkAreas();
