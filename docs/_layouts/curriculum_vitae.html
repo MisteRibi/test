@@ -7,10 +7,10 @@ layout: default
   const checkAreas = () => {
     let params = new URLSearchParams(window.location.search);
     if (params.size != 0) {
-      console.log("params",params);
+      console.log("params",params.toString());
       let areas = params.getAll("area");
       if (areas.length != 0) {
-        console.log("areas");
+        console.log("areas",areas);
       };
     };
   };
