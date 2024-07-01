@@ -4,12 +4,15 @@ layout: default
 {{ content }}
 
 <script>
-  let params = new URLSearchParams(window.location.search);
-  if (params.size != 0) {
-    console.log("params",params);
-    let areas = params.getAll("area");
-    if (areas.length != 0) {
-      console.log("areas");
+  const checkAreas = () => {
+    let params = new URLSearchParams(window.location.search);
+    if (params.size != 0) {
+      console.log("params",params);
+      let areas = params.getAll("area");
+      if (areas.length != 0) {
+        console.log("areas");
+      };
     };
   };
+  checkAreas();
 </script>
